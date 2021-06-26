@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bonus</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+    <button type="button">
+        <div class="heading transition">
+            <h1>
+                CLICK!
+            </h1>
+
+        </div>
+        
+       
+    </button>
+
+    <div class="popup transition">
+        <p>So you'll just do whatever you're told?</p>
+    </div>
+   
+
+</div> 
+
+<script>
+
+const popup = document.getElementsByClassName('popup')
+function toggleText() {
+  if (popup.style.display === "none") {
+    popup.style.display = "block";
+  } else {
+    popup.style.display = "none";
+  }
+}
+
+function click(){
+    button.addEventListener('click', toggleText)
+} 
+
+console.log(click);
+
+
+
+
+</script>
+
+</body>
+</html>  
+
+    
+
+
+
+
+    
+
+
+  
+
+
