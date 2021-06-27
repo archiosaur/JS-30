@@ -31,20 +31,21 @@
 
 <script>
 
-const popup = document.getElementsByClassName('popup')
+const popup = document.querySelector('.popup');
 function toggleText() {
   if (popup.style.display === "none") {
     popup.style.display = "block";
   } else {
     popup.style.display = "none";
   }
+ 
 }
 
-function click(){
-    button.addEventListener('click', toggleText)
-} 
+const button = document.querySelector('button');
+button.addEventListener('click', toggleText);
 
-console.log(click);
+
+
 
 
 
